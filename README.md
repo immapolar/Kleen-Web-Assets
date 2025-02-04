@@ -21,7 +21,7 @@ A Node.js tool for cleaning comments from your files while preserving code struc
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/kleen.git
+git clone https://github.com/immapolar/Kleen-Web-Assets.git
 ```
 
 ## Usage
