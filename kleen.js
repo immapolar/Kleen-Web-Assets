@@ -144,10 +144,10 @@ async function main() {
     
     try {
         const results = await cleaner.processDirectory();
-        console.log('\nProcessing completed:');
-        console.log(`✓ Processed: ${results.processed} files`);
-        console.log(`× Failed: ${results.failed} files`);
-        console.log(`- Copied without processing: ${results.skipped} files`);
+        console.log('\nCleaning completed:');
+        console.log(`Cleaned: ${results.processed} files`);
+        console.log(`Failed: ${results.failed} files`);
+        console.log(`Skipped: ${results.skipped} files`);
     } catch (error) {
         console.error('Error:', error.message);
         process.exit(1);
